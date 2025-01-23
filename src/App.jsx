@@ -8,6 +8,8 @@ import Skills from'./pages/Skills';
 import Contact from'./pages/Contact';
 
 
+
+
 const App = () => (
   <Router>
     <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300">
@@ -37,14 +39,18 @@ const App = () => (
 {/* Contact Section */}
 <section id="contact" className="snap-start">
           <Contact />
-        </section>
+        </section>{/* Contact Section */}
+
+
+
 
       </div>
     </div>
+</div>
 
-
-    </div>
+    
   </Router>
 );
+
 
 export default App;

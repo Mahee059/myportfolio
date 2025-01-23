@@ -7,7 +7,7 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'A personal portfolio website showcasing my skills, projects, and contact information.',
       technologies: ['React', 'Tailwind CSS', 'JavaScript'],
-      link: '#',
+      link: '#https://muna-portfolio.netlify.app/',
     },
     {
       title: 'E-commerce Platform',

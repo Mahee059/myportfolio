@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa'
+import resume from '../assets/Resume.pdf'
 
 const Contact = () => {
   return (
@@ -43,11 +44,9 @@ const Contact = () => {
           <FaGithub />
           GitHub
         </a>
-
-        {/* CV Download */}
         <a
-          href="/path-to-your-cv.pdf" // Replace with the actual path to your CV
-          download="YourName_CV.pdf"
+          href={resume}
+          download="Resume"
           className="flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 transition-colors"
         >
           <FaFileDownload />
